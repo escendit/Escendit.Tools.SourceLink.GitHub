@@ -11,7 +11,7 @@
         <PackageTags>sourcelink;source;link;github;defaults</PackageTags>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Escendit.Tools.SourceLink.Common" Version="0.1.0-rc.14" />
+        <PackageReference Include="Escendit.Tools.SourceLink.Common" Version="0.4.0" />
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
     </ItemGroup>
     <ItemGroup>
