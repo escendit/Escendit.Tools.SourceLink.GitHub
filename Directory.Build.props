@@ -4,4 +4,8 @@
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/escendit/Escendit.Tools.SourceLink.GitHub</RepositoryUrl>
     </PropertyGroup>
+    <!-- Properties for GitHub Actions -->
+    <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+        <RepositoryUrl>https://github.com/$(GITHUB_REPOSITORY)</RepositoryUrl>
+    </PropertyGroup>
 </Project>
